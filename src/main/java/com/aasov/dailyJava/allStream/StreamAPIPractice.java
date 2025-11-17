@@ -13,7 +13,7 @@ public class StreamAPIPractice {
 
     public static void main(String[] args) {
         // Run any method to test it out
-        q1();
+        q13();
         // Example: q15(); or q30();
     }
 

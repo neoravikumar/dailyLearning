@@ -103,6 +103,13 @@ public class StreamAPIPractive2 {
     }
 
 
+    static void question13() {
+        record Emp(String name, String dept, double salary) {
+        }
+        List<Emp> list = List.of(new Emp("A", "HR", 3000), new Emp("B", "IT", 4000), new Emp("C", "IT", 5000));
+    }
+
+
 /*Basic Level:
 1.  Find all even numbers from a list using streams.
 2.  Convert a list of strings to uppercase using stream operations.
